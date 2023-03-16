@@ -4,16 +4,16 @@
 <head>
   <script>
     function myFunction() {
-      var number = "123";
-      var number2 = 123
-      document.getElementById("myText").innerHTML = number2;
+      var number = Math.random() * 10;
+      var number2 = Math.random() * 10;
+      document.getElementById("result").innerHTML = number + number2;
     }
   </script>
 </head>
 
 <body onload="myFunction()">
 
-<span id="myText"></span>
+<span id="result"></span>
 
 </body>
 
